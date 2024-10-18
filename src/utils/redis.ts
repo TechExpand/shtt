@@ -1,7 +1,7 @@
 import { createClient } from 'redis';
 
 
-const client = createClient({ url: "rediss://red-ckk5tb66fcos73dricf0:xRoqn664c6ZZKcPd4JdldPVk1PGit9Q1@oregon-redis.render.com:6379" });
+const client = createClient({ url: "rediss://red-cq93bfjv2p9s73ccoka0:OrBDJ4Nm71ox0caqRwiEPfaP5XXh8Czy@oregon-redis.render.com:6379" });
 client.on('error', (err) => console.log('Redis Client Error', err));
 (async () => await client.connect())();
 
